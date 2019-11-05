@@ -66,13 +66,13 @@ Right now, we think we can assert from the accuracy of report submitted and phot
 
 Video
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E61YyLJwvf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Demo](https://img.youtube.com/vi/E61YyLJwvf0/0.jpg)](https://www.youtube.com/watch?v=E61YyLJwvf0 "Demo")
 
 
 For the public site where we can see submitted reports can be seen here:
 
 [Public Eyes Site](https://pub-eyes-develop.vapor.cloud/)
+
 
 > Thank You!
 
