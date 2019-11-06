@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="r2M-pw-PdB">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+    </dependencies>
+    <scenes>
+        <!--Cx Report List-->
+        <scene sceneID="vMB-0u-FeR">
+            <objects>
+                <viewController id="r2M-pw-PdB" customClass="VCxReportList" customModule="Public_Eyes" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="8AI-Df-6Yp" kind="show" identifier="toVCxReportDetail" id="L1a-4t-w1b"/>
+                        <segue destination="9hx-hg-JKx" kind="show" identifier="toVCxHunt" id="Hio-JR-Dgi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D2p-z6-xvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="-429"/>
+        </scene>
+        <!--Cx Hunt-->
+        <scene sceneID="D1a-io-O1x">
+            <objects>
+                <viewController id="9hx-hg-JKx" customClass="VCxHunt" customModule="Public_Eyes" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="8AI-Df-6Yp" kind="show" identifier="toVCxReportDetail" id="H8n-NU-cMY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3FY-gb-z5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="554"/>
+        </scene>
+        <!--Cx Report Detail-->
+        <scene sceneID="qoC-PI-I6j">
+            <objects>
+                <viewController id="8AI-Df-6Yp" customClass="VCxReportDetail" customModule="Public_Eyes" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQn-ge-m1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="-23"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="L1a-4t-w1b"/>
+    </inferredMetricsTieBreakers>
+</document>
